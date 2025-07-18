@@ -1,0 +1,60 @@
+# API 키 및 보안 관련 파일
+.env
+.env.local
+.env.production
+.env.development
+config.json
+secrets.json
+api-keys.json
+
+# 로컬 설정 파일
+settings.json
+user-settings.json
+
+# 로그 파일
+*.log
+logs/
+
+# 임시 파일
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js (만약 사용한다면)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (만약 사용한다면)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 백업 파일
+*.bak
+*.backup
+*~
+
+# 다운로드된 PDF 파일 (개인 파일)
+pdfs/
+downloads/
+*.pdf
+
+# 기타 개인 파일
+personal/
+private/ 
